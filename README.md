@@ -26,3 +26,5 @@ customEvents
 ```
 
 Click _Run_ button and observe the _Results_ section;
+
+![Results section](https://github.com/user-attachments/assets/1c714248-7478-4325-8ef9-28a173fb1281)
