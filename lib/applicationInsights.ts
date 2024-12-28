@@ -9,3 +9,14 @@ class PRApplicationInsights extends ApplicationInsights {
     this.trackEvent({ name: eventName }, { duration });
   }
 }
+
+export const appInsights = new PRApplicationInsights({
+  config: {
+    instrumentationKey: '',
+    enableAutoRouteTracking: true
+  },
+});
+
+export const LastActivityTime = { value: Date.now() };
+
+appInsights.loadAppInsights();
